@@ -7,7 +7,7 @@ def catalogar(listaVehiculos, ruedas=None):
             if hasattr(vehiculo, 'ruedas') and vehiculo.ruedas == ruedas:
                 print(f"Clase: {type(vehiculo).__name__}, Atributos: " ,vehiculo)
                 contador += 1
-        print(f"Se han encontrado {contador} vehículos con {ruedas} ruedas.")
+        print(f"Se han encontrado {contador} vehiculos con {ruedas} ruedas.")
     else:
         # Mostrar todos los vehículos
         for vehiculo in listaVehiculos:
